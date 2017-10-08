@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend development",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-csso": "^3.0.0",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Karthik",
+  "license": "ISC"
+}
