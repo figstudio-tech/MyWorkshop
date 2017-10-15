@@ -33,8 +33,22 @@ $(function(){
     do{
         $('#lbl').append((k--) + ', ');
     }while(k >= 1);
-    
+
+
+
+    // #region Factorial
+    var f = 3;
+    var factResult = fact(f);
+    $('#fact').text('Factorial of ' + f + ' is ' + factResult);
 });
+
+
+function fact(a){
+    console.log(a);
+    if(a <= 1) return a;
+    var res = a * fact(a-1);
+    return res;
+}
 
 // $(document).ready(function(){
 
